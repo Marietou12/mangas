@@ -1,0 +1,13 @@
+
+st.markdown(
+    """
+    <style>
+    body {backgroundColor="#4cb0b9";
+secondaryBackgroundColor="#d5d8f5";
+textColor="#253c92";
+font="serif"
+    }
+    </style>
+    """, 
+    unsafe_allow_html=True
+)
