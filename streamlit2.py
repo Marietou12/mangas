@@ -5,6 +5,19 @@ import seaborn as sns
 import numpy as np
 import plotly.express as px
 
+st.markdown(
+    """
+    <style>
+    body {backgroundColor="#4cb0b9";
+secondaryBackgroundColor="#d5d8f5";
+textColor="#253c92";
+font="serif"
+    }
+    </style>
+    """, 
+    unsafe_allow_html=True
+)
+
 st.title("Manipulation de données et creation de graphique")
 choix= st.selectbox('quel dataset souhaites tu utiliser ? ', sns.get_dataset_names())
 for i in sns.get_dataset_names():
